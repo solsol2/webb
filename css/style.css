@@ -243,8 +243,8 @@ label {
   margin-bottom: 10px;
   display: block;
 }
-input [type="text"],
-input [type="email"] {
+input[type="text"],
+input[type="email"] {
   width: 100%;
   max-width: 240px;
 }
@@ -315,7 +315,7 @@ iframe {
   .location-info,
   .location-map,
   .sns-box {
-    width: 100%
+    width: 100%;
   }
   .sns-box {
     margin-bottom: 30px;
