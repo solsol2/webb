@@ -226,7 +226,6 @@ aside p {
   width: 100%;
   object-fit: cover;
 }
-
 /*CONTACT
 ------------------------------------*/
 #contact {
@@ -244,10 +243,7 @@ label {
   display: block;
 }
 input[type="text"],
-input[type="email"] {
-  width: 100%;
-  max-width: 240px;
-}
+input[type="email"],
 textarea {
   background: rgba(255, 255, 255, .5);
   border: 1px #fff solid;
@@ -255,7 +251,21 @@ textarea {
   padding: 10px;
   font-size: 1rem;
 }
-
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+input [type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
 
 
 /*가게 정보와 지도
@@ -277,10 +287,12 @@ textarea {
 .location-map {
   width: 74%;
 }
+
 /*iframe*/
 iframe {
   width: 100%;
 }
+
 /*SNS*/
 #sns {
   background: #FAF7F0;
@@ -298,7 +310,7 @@ iframe {
 }
 
 @media (max-width: 600px) {
-  
+
   .big-box {
     grid-column: auto;
     grid-row: auto;
@@ -321,3 +333,4 @@ iframe {
     margin-bottom: 30px;
   }
 }
+
